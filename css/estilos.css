@@ -86,6 +86,7 @@ body {
 
 .header__navbar li {
   float: left;
+  
 }
 
 .header__navbar a {
@@ -97,13 +98,15 @@ body {
 }
 
 .header__navbar li a:hover {
-  background-color: rgba(139, 112, 86, 0.808);
+  background: rgb(151,120,91);
+  background: radial-gradient(circle, rgba(151,120,91,1) 0%, rgba(105,86,69,1) 100%);
 }
 
 .header__img {
   width: 60px;
   height: 60px;
 }
+
 
 /* --- MAIN --- */
 
@@ -115,7 +118,9 @@ body {
   margin-top: 50px;
   padding: auto;
   border: solid 5px rgba(151, 120, 91, 0.808);
+  
 }
+
 
 .main p {
   text-align: center;
@@ -166,6 +171,12 @@ body {
   text-decoration: none;
   color: rgb(17, 14, 10);
 }
+
+/* --- ANIMACIONES --- */
+
+.scale-up-bl{animation:scale-up-bl .4s cubic-bezier(.39,.575,.565,1.000) both}
+
+ @keyframes scale-up-bl{0%{transform:scale(.5);transform-origin:0 100%}100%{transform:scale(1);transform-origin:0 100%}}
 
 /* --- RESPONSIVE --- */
 
