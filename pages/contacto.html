@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../fotos/logo.png">
+    <link rel="stylesheet" href="../css-bt/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Contacto</title>
 </head>
@@ -24,43 +25,46 @@
         </div>
 
         <div class="main">
-
-            <p>Contacto</p>
             <form class="main__form">
-                <fieldset>
-                    <legend class="main__form--legend">Contanos tus dudas</legend>
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name" id="name" placeholder="Ingresa tu nombre">
-                    <br>
-                    <br>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
-                    <br>
-                    <br>
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" id="mail" placeholder="Ingresa tu email">
-                    <br>
-                    <br>
-                    <label for="consulta">Consulta</label>
-                    <textarea name="consulta" id="consulta" cols="30" rows="10"
-                        placeholder="Ingresa tu consulta"></textarea>
-                    <br>
-                    <br>
-                    <form>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar todo">
-                    </form>
 
+                <p class="text-center fs-2">Contanos tus dudas</p>
+
+                <div class="input-group">
+                    <span class="input-group-text">Ingresa tu nombre y apellido</span>
+                    <input type="text" aria-label="First name" class="form-control" placeholder="Nombre">
+                    <input type="text" aria-label="Last name" class="form-control"  placeholder=" Apellido">
+                </div>
+                <br>
+                <br>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Ingresa tu email</label>
+                </div>
+                <br>
+                <br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Ingresa tu consulta</label>
+                </div>
+                <br>
+                <br>
+                <form>
+                    <input type="submit" value="Enviar" class="btn btn-secondary">
+                    <input type="reset" value="Borrar todo" class="btn btn-secondary">
                     <br>
                     <br>
                     <hr>
+                </form>
         </div>
 
-        <div class="footer">
+        <div class="footer btn btn-link">
             <a href="https://www.instagram.com/bebeabordotandil/?hl=es-la" target="blank">Conoce mas de nosotros acá</a>
         </div>
 
     </div>
+
+    <script src="../js-bt/bootstrap.min.js"></script>
 
 </body>
 

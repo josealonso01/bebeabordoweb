@@ -40,7 +40,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 0fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
+  gap: 10px 10px;
   grid-template-areas:
     "main__grid--arcoiris main__grid--frida ."
     "main__grid--jirafa main__grid--unicornio ."
@@ -117,24 +117,13 @@ body {
   margin: auto;
   margin-top: 50px;
   padding: auto;
-  border: solid 5px rgba(151, 120, 91, 0.808);
-  
 }
 
-
-.main p {
-  text-align: center;
-  font-size: 40px;
-  padding: 100px;
-  color: rgb(17, 14, 10);
-}
 
 .main__img {
-  display: inline-block;
-  width: auto;
   height: 500px;
-  padding: 50px;
-  margin: auto;
+  width: auto;
+  margin: 60px;
 }
 
 .main__crochet {
@@ -144,18 +133,11 @@ body {
 
 .main__form {
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  padding: 25px;
 }
 
-.main__form--legend {
-  margin: auto;
-  text-decoration: none;
-  padding: 30px;
-}
-
-.main__form label {
-  padding: 15px;
+.main p {
+  padding: 50px;
 }
 
 /* --- FOOTER --- */
@@ -177,6 +159,7 @@ body {
 .scale-up-bl{animation:scale-up-bl .4s cubic-bezier(.39,.575,.565,1.000) both}
 
  @keyframes scale-up-bl{0%{transform:scale(.5);transform-origin:0 100%}100%{transform:scale(1);transform-origin:0 100%}}
+
 
 /* --- RESPONSIVE --- */
 
@@ -209,4 +192,9 @@ body {
     height: auto;
     margin: auto;
   }
+}
+
+.bg-beige {
+  --bs-bg-opacity: 1
+  background-color: rgb(191, 179, 164);
 }

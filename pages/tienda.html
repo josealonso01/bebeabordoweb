@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css-bt/bootstrap.min.css">
   <link rel="stylesheet" href="../css/estilos.css" />
   <link rel="shortcut icon" href="../fotos/logo.png" />
   <title>Tienda</title>
@@ -21,27 +22,41 @@
       </a>
     </div>
 
-    <div class="main">
-      <img class="main__img" src="../fotos/unicornio.png" alt="" />
-      <form class="main__form">
-        <input type="submit" value="Agregar al carrito" />
-      </form>
+    <div class="main text-center">
 
-      <img class="main__img" src="../fotos/jirafa.png" />
-      <form class="main__form">
-        <input type="submit" value="Agregar al carrito" />
-      </form>
+      <div class="alert alert-dark" role="alert">
+        Tambien podes encargar piezas personalizadas <a href="./contacto.html" class="alert-link">haciendo click aqui</a>. Escribinos y te pasamos un presupuesto a medida
+      </div>
 
+      <img class="main__img img-thumbnail" src="../fotos/unicornio.png" />
+      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
+
+
+      <img class="main__img img-thumbnail" src="../fotos/jirafa.png" />
+      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
+
+      <img class="main__img img-thumbnail" src="../fotos/arcoiris.png" alt="" />
+      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
+
+      <img class="main__img img-thumbnail" src="../fotos/osobostero.png" alt="" />
+      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
       <br />
       <br />
       <br />
       <hr />
     </div>
 
-    <div class="footer">
+    <div class="footer btn btn-link">
       <a href="https://www.instagram.com/bebeabordotandil/?hl=es-la" target="blank">Conoce mas de nosotros acá</a>
     </div>
   </div>
+
+  <script src="../js-bt/bootstrap.min.js"></script>
+
 </body>
 
 </html>
