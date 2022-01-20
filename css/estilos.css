@@ -9,9 +9,17 @@
     font-size: 62.5%; (10px=1rem)
 }*/
 
+
+/*-------ESTILOS GENERALES------*/
+
 body {
   background-color: rgb(191, 179, 164);
   font-family: "Josefin Slab", serif;
+}
+
+.bg-beige {
+  --bs-bg-opacity: 1
+  background-color: rgb(191, 179, 164);
 }
 
 /* --- GRID -- */
@@ -163,7 +171,7 @@ body {
 
 /* --- RESPONSIVE --- */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)  {
   body {
     background-color: rgba(151, 120, 91, 0.808);
   }
@@ -194,7 +202,28 @@ body {
   }
 }
 
-.bg-beige {
-  --bs-bg-opacity: 1
-  background-color: rgb(191, 179, 164);
+@media (max-width: 768px)  {
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .main__grid {
+    display: block;
+    justify-content: center;
+  }
+
+  .main__grid img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main__img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
 }
