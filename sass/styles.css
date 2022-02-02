@@ -96,10 +96,10 @@
   height: auto;
   width: 100%;
   bottom: 0;
+  margin: auto;
   padding: 40px;
   font-size: 20px;
   text-align: center;
-  position: fixed;
 }
 
 .footer a {
