@@ -5,20 +5,27 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="tienda online de articulos hechos al crochet para bebes y niños. Decoracion, juguetes y muñecos hechos artesanalmente con amor">
+  <meta name="keywords" content="crochet, bebe, decoracion, muñeco, artesanal">
+  <meta name="title" content="Bebe a Bordo. Crochet para tu bebé">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../css-bt/bootstrap.min.css">
+  <link rel="stylesheet" href="../sass/styles.css">
   <link rel="stylesheet" href="../css/estilos.css" />
   <link rel="shortcut icon" href="../fotos/logo.png" />
   <title>Tienda</title>
 </head>
 
-<body>
+<body class="cuerpo letraColores">
   <div class="gridcontainer">
-    <div class="header">
+
+    <div class="barra header">
       <a href="../index.html">
-        <img class="header__img scale-up-bl" src="../fotos/logo.png" />
+        <img class="logoNav header__img scale-up-bl" src="../fotos/logo.png"
+          alt="bebe durmiendo sobre un ovillo de lana que es el lomo de una oveja, al costado dice bebe a bordo, el nombre de la empresa" />
       </a>
     </div>
 
@@ -26,35 +33,53 @@
 
       <div class="alert alert-dark" role="alert">
         Tambien podes encargar piezas personalizadas <a href="https://api.whatsapp.com/send?phone=542494374429"
-          class="alert-link">haciendo click aqui</a>. Escribinos y te pasamos un presupuesto a medida
+          class="alert-link" target="blank">haciendo click aqui</a>. Escribinos y te pasamos un presupuesto a medida
       </div>
 
-      <img class="main__img img-thumbnail" src="../fotos/unicornio.png" />
-      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
+      <div class="main__grid">
+        <div class="main__grid--foto1">
+          <img class="tienda img-thumbnail" src="../fotos/unicornio.png"
+            alt="tapete colgante celeste con un unicornio en el medio hecho al crochet" />
+          <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+          <label class="btn btn-secondary" for="option1">Agregar al carrito</label>
+        </div>
 
+        <div class="main__grid--foto2">
+          <img class="main__img img-thumbnail" src="../fotos/jirafa.png"
+            alt="tapete colgante cuadrado blanco con una jirafa comiendo flores en el medio hecho al crochet" />
+          <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+          <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
+        </div>
 
-      <img class="main__img img-thumbnail" src="../fotos/jirafa.png" />
-      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
+        <div class="main__grid--foto3">
+          <img classf="main__img img-thumbnail" src="../fotos/arcoiris.png"
+            alt="tapete con forma de arcoiris de colores con una nube y un sol hecho al crochet" />
+          <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+          <label class="btn btn-secondary" for="option3">Agregar al carrito</label>
+        </div>
 
-      <img class="main__img img-thumbnail" src="../fotos/arcoiris.png" alt="" />
-      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
-
-      <img class="main__img img-thumbnail" src="../fotos/osobostero.png" alt="" />
-      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-      <label class="btn btn-secondary" for="option2">Agregar al carrito</label>
-
-      <hr>
-
+        <div class="main__grid--foto4">
+          <img class="main__img img-thumbnail" src="../fotos/osobostero.png"
+            alt="muñeco con forma de oso con camiseta de boca y una pelota en el pie hecho al crochet" />
+          <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+          <label class="btn btn-secondary" for="option4">Agregar al carrito</label>
+        </div>
+        |
+      </div>
     </div>
 
-    <div class="footer btn btn-link">
-      <a href="https://www.instagram.com/bebeabordotandil/?hl=es-la" target="blank">Conoce mas de nosotros acá</a>
+    <div class="barra footer">
+      <p>Conocenos:</p>
+      <ul>
+        <li class="btn btn-link"><a href="https://www.instagram.com/bebeabordotandil/?hl=es-la"
+            target="blank">Instagram</a></li>
+        <li class="btn btn-link"><a href="https://www.facebook.com/bebeabordotandil" target="blank">Facebook</a></li>
+        <li class="btn btn-link"><a href="https://api.whatsapp.com/send?phone=542494374429" target="blank">Whatsapp</a>
+        </li>
+      </ul>
     </div>
+
   </div>
-
   <script src="../js-bt/bootstrap.min.js"></script>
 
 </body>
