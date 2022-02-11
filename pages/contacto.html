@@ -22,34 +22,37 @@
 
     <div class="gridcontainer">
 
-        <div class="barra header">
+        <header class="barra header">
+
             <a href="../index.html">
-                <img class="logoNav header__img scale-up-bl" src="../fotos/logo.png" alt="bebe durmiendo sobre un ovillo de lana que es el lomo de una oveja, al costado dice bebe a bordo, el nombre de la empresa">
+                <img class="logoNav header__img scale-up-bl" src="../fotos/logo.png"
+                    alt="bebe durmiendo sobre un ovillo de lana que es el lomo de una oveja, al costado dice bebe a bordo, el nombre de la empresa">
             </a>
-        </div>
 
-        <div class="main">
+        </header>
+
+        <main class="main">
+
             <form>
-
                 <p class="text-center fs-1">Contanos tus dudas</p>
 
-                <div class="form-floating mb-3">
-                    <input type="name" class="form-control" id="floatingInput1" placeholder="name">
-                    <label for="floatingInput1">Ingresa tu nombre y apellido</label>
-                </div>
+                
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">Nombre y apellido</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
                 <br>
                 <br>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput2" placeholder="name@example.com">
-                    <label for="floatingInput2">Ingresa tu email</label>
-                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">Mail</span>
+                    <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
                 <br>
                 <br>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Ingresa tu consulta</label>
-                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Ingresa tu consulta</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
                 <br>
                 <br>
                 <form>
@@ -57,16 +60,22 @@
                     <input type="reset" value="Borrar todo" class="btn btn-secondary">
                 </form>
             </form>
-        </div>
 
-        <div class="barra footer">
+        </main>
+
+        <footer class="barra footer">
+
             <p>Conocenos:</p>
             <ul>
-              <li class="btn btn-link"><a href="https://www.instagram.com/bebeabordotandil/?hl=es-la" target="blank">Instagram</a></li>
-              <li class="btn btn-link"><a href="https://www.facebook.com/bebeabordotandil" target="blank">Facebook</a></li>
-              <li class="btn btn-link"><a href="https://api.whatsapp.com/send?phone=542494374429" target="blank">Whatsapp</a></li>
+                <li class="btn btn-link"><a href="https://www.instagram.com/bebeabordotandil/?hl=es-la"
+                        target="blank">Instagram</a></li>
+                <li class="btn btn-link"><a href="https://www.facebook.com/bebeabordotandil" target="blank">Facebook</a>
+                </li>
+                <li class="btn btn-link"><a href="https://api.whatsapp.com/send?phone=542494374429"
+                        target="blank">Whatsapp</a></li>
             </ul>
-          </div>
+
+        </footer>
 
     </div>
 
