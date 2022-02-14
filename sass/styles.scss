@@ -81,6 +81,13 @@
   form {
     text-align: center;
     padding   : 1.6rem;
+    img {
+      width: 3.5rem;
+      height: auto;
+    }
+    button {
+      font-size: 1.3rem;
+    }
   }
 
   input {
@@ -88,8 +95,10 @@
   }
 
   label {
-    font-size: large;
-    margin   : 1rem;
+    a {
+      font-size: 1.4rem;
+      margin-bottom: 2.5rem;
+    }
   }
 }
 
@@ -100,23 +109,23 @@
   margin    : auto;
   padding   : 2.5rem;
   font-size : 1.5rem;
-  text-align: center;
-
   a {
     text-decoration: none;
     color          : rgb(17, 14, 10);
   }
-
-  p {
-    text-decoration: none;
-    color          : black;
-    font-size      : 1.5rem;
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  svg {
+    height: 1.5rem;
+    width: auto;
   }
 }
 
 /* --- GRID -- */
 
-.gridcontainer {
+.gridContainer {
   display              : grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows   : 0.2fr 6fr 0.2fr;
@@ -234,7 +243,6 @@
     display        : block;
     justify-content: center;
   }
-
 
   .footer {
     height : auto;

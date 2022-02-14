@@ -74,31 +74,37 @@
 .main form {
   text-align: center;
   padding: 1.6rem; }
+  .main form img {
+    width: 3.5rem;
+    height: auto; }
+  .main form button {
+    font-size: 1.3rem; }
 
 .main input {
   font-size: 1.3rem; }
 
-.main label {
-  font-size: large;
-  margin: 1rem; }
+.main label a {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem; }
 
 .footer {
   height: auto;
   width: 100%;
   margin: auto;
   padding: 2.5rem;
-  font-size: 1.5rem;
-  text-align: center; }
+  font-size: 1.5rem; }
   .footer a {
     text-decoration: none;
     color: #110e0a; }
-  .footer p {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem; }
+  .footer ul {
+    display: flex;
+    justify-content: center; }
+  .footer svg {
+    height: 1.5rem;
+    width: auto; }
 
 /* --- GRID -- */
-.gridcontainer {
+.gridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 6fr 0.2fr;
